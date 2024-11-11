@@ -1,12 +1,19 @@
 resize
 
+
 stop
 
+//NOt yet
+
+
+//这个不给我看膨胀的结果，只给我看腐蚀的那一组，不知道是那里的问题
 erode
-find_contours
-rect
+
+//done
 split
 threshold
-compute_iou
-compute_area_ratio
+find_contours
 roi_color
+compute_iou
+rect
+compute_area_ratio
